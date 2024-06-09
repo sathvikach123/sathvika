@@ -1,0 +1,16 @@
+// Code implementation of Kruskal's Algorithm in C
+#include <stdio.h>
+// Define the structure for an edge
+struct Edge {
+    int src, dest, weight;
+};
+// Function to sort edges based on weight
+void sortEdges(struct Edge edges[], int numEdges);
+// Function to find the parent of a node
+int findParent(int parent[], int node);
+// Kruskal's Algorithm to find Minimum Spanning Tree
+void kruskalMST(struct Edge edges[], int numEdges, int numVertices);
+int main() {
+    // Sample data and function calls
+    return 0;
+}
